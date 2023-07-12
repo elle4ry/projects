@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.fundo{
+    background-color: blue;
+    padding-right: 30px;
+    background-image: linear-gradient(to right, #ffffff, #000000);
+}
+.container {
+    width: 100vw;
+    height: 100vh;
+    background: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.box {
+    width: 100px;
+    height: 100px;
+    background: #fff;
+}
